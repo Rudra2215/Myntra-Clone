@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-bottom: 30px;
+    box-shadow: rgb(89, 88, 88) 0 5px 15px;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 40px;
+}
+.search{
+    padding-right: 10px;
+   display: flex;
+
+}
+.search i,.search input{
+    padding: 0 20px;
+}
+.search input[type="text"]{
+width: 300px;
+background-color: rgb(213, 210, 210);
+}
+.icons{
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+
+}
+.search input{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.search i{
+padding-top: 10px;
+}
+.main_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 218, 224);
+}
+.navsection{
+    box-shadow: rgb(89, 88, 88) 0px 5px 20px;
+}
+
+#main_image{
+   border-left: solid white 10px;
+   border-right: solid white 10px;
+}
+
+   
+.icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    ;
+}
+
+#image2{
+ width: 100%;
+ height: 350px;
+ margin: 20px 0;
+}
+#apparel{
+    height: 350px;
+ margin: 20px 0;
+}
+.image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small_images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.small_images div{
+    border: groove salmon 10px;
+    display: flex;
+    align-items: center;
+}
+.small5 img{
+   height: 30vh;
+}
+.small5{
+    background-color: black;
+}
+.forher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    border: solid aquamarine 5px;
+    border-radius: 17px;
+}
+.forherimage{
+    background-image:radial-gradient(aquamarine 50%,white) ;
+    padding: 20px;
+    border-radius: 5px;
+}
+.forheritems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
